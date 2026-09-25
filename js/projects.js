@@ -59,6 +59,13 @@ document.querySelectorAll('.current-year').forEach((element) => {
     link.addEventListener('click', () => setDrawerState(false));
   });
 
+  const desktopNavigation = window.matchMedia('(min-width: 1024px)');
+  desktopNavigation.addEventListener('change', (event) => {
+    if (event.matches && navigationDrawer.classList.contains('open')) {
+      setDrawerState(false);
+    }
+  });
+
   document.addEventListener('keydown', (event) => {
     if (!navigationDrawer.classList.contains('open')) return;
 

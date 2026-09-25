@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://issurax.github.io/sitemap.xml
+Sitemap: https://madebyele.github.io/sitemap.xml

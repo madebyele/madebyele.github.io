@@ -3,7 +3,7 @@
 에이전시, 자체 서비스, 운영/유지보수, 리뉴얼 프로젝트 경험을 프로젝트 단위로 보여주는 것을 목표로 합니다.
 
 **Live Site**  
-https://IssuraX.github.io
+https://madebyele.github.io
 
 ## 목적
 이 포트폴리오는 단순히 화면 결과물을 나열하는 사이트가 아니라,
@@ -75,4 +75,4 @@ https://IssuraX.github.io
 
 ## 연락처
 - Email: bysaru@gmail.com
-- GitHub: https://github.com/IssuraX
+- GitHub: https://github.com/madebyele
