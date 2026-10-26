@@ -297,6 +297,7 @@
   .project-overview { color: var(--color-text-secondary); line-height: 1.7; }
   .project-facts { border-top: 1px solid var(--color-border-strong); }
   .project-facts > div { padding-block: var(--space-3); border-bottom: 1px solid var(--color-border); }
+  .project-facts > div:last-child { border-bottom: 0; }
   .project-facts dt, .project-tech > p { color: var(--color-text-muted); font-size: .6875rem; font-weight: 600; letter-spacing: .05em; text-transform: uppercase; }
   .project-facts dd { margin-top: .3rem; font-size: .875rem; font-weight: 500; line-height: 1.5; }
   .project-tech { padding-top: var(--space-4); border-top: 1px solid var(--color-border-strong); }
@@ -315,7 +316,7 @@
   .featured-project--lead .project-heading { grid-column: 1 / span 7; }
   .featured-project--lead .project-overview { grid-column: 8 / -1; max-width: 34rem; }
   .featured-project--lead .project-facts { grid-column: 1 / span 9; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); margin-top: var(--space-7); }
-  .featured-project--lead .project-facts > div { padding-right: var(--space-4); }
+  .featured-project--lead .project-facts > div { padding-right: var(--space-4); border-bottom: 0; }
   .featured-project--lead .project-facts > div + div { padding-left: var(--space-4); border-left: 1px solid var(--color-border); }
   .featured-project--lead .project-tech { grid-column: 10 / -1; margin-top: var(--space-7); }
   .featured-project--lead .project-cta { grid-column: 10 / -1; }
@@ -546,6 +547,7 @@
     .project-facts > div { padding-right: var(--space-3); }
     .featured-project--lead .project-facts > div + div { padding-left: 0; border-left: 0; }
     .project-facts > div:nth-child(even) { padding-left: var(--space-3); border-left: 1px solid var(--color-border); }
+    .featured-project--lead .project-facts > div:nth-child(-n + 2) { border-bottom: 1px solid var(--color-border); }
     .project-facts > div:nth-last-child(-n + 2) { border-bottom: 0; }
     .project-tech,
     .featured-project--lead .project-tech,
